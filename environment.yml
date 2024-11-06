@@ -1,0 +1,15 @@
+# environment.yml
+name: ungulate-iqtree
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.10
+  - clustalw==2.1
+  - ncbi-acc-download
+  - biopython
+  - iqtree==2.1.2
+  - numpy
+  - pandas
+  - plotly
